@@ -1,0 +1,105 @@
+    <!--============= NAVBAR ============-->
+    <div class="main_site d-xl-flex">
+        <div class="container_my_1440">
+            <div class="container_my_1200">
+                <!-- Kupon_Satış_Destek -->
+                <div class="bg-white up_text d-flex justify-content-end align-items-center">
+                    <a href="#">İndirim Kuponlarım</a>
+                    <a href="#">Trendyol'da Satış Yap</a>
+                    <a href="#">Yardım & Destek</a>
+                </div>
+                <!-- ÜST NAVBAR (yapışkan)-->
+                <div class="sticky-top ">
+                    <nav class="  navbar-white bg-white  px-md-1 px-1">
+                        <div class="d-flex align-items-center justify-content-between ">
+                            <a class="navbar-brand" href="/">
+                                <img style="width:146px;height:100%;margin-bottom:-3px"
+                                    src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="Trendyol">
+                            </a>
+                            <div class="dropdown w-50 ">
+                                <!-- <a href="#" class=" " role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> -->
+                                <form class="d-flex " role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <input class="form-control  " type="search" placeholder="Search"
+                                        aria-label="Search">
+                                </form>
+
+                                <ul class="dropdown-menu w-50 " aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item w-50" href="#">Geçmiş1</a></li>
+                                    <li><a class="dropdown-item w-50" href="#">Geçmiş2</a></li>
+                                    <li><a class="dropdown-item w-50" href="#">Geçmiş3</a></li>
+                                </ul>
+                            </div>
+                            <div class="d-flex navbartop_user">
+                                <a href="{% url 'login' %}"
+                                    class="ms-2 d-flex justify-content-center align-items-center text-decoration-none">
+                                    <span class="fa-regular fa-user "></span>
+                                    <p class="ms-1 m-2">Hesabım</p>
+
+                                </a>
+                                <a href="{% url 'register' %} "
+                                    class="ms-2 d-flex justify-content-center align-items-center text-decoration-none">
+                                    <span class="fa fa-user-plus "></span>
+                                    <p class="ms-1 m-2">Kayıt ol</p>
+
+                                </a>
+                                <a href="#"
+                                    class="d-flex justify-content-center align-items-center text-decoration-none">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>
+                                    <p class="ms-1 m-2">Favorilerim</p>
+                                </a>
+                                <a href="#"
+                                    class="d-flex justify-content-center align-items-center text-decoration-none">
+                                    <span class="material-symbols-rounded">
+                                        shopping_cart
+                                    </span>
+                                    <p class="m-0 ">Sepetim</p>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </nav>
+                </div>
+                <!-- Alttaki NAVBAR kısmı (sekme)-->
+                <div class="py-0">
+                    <nav class=" navbar-expand-lg slider0 navbar-white bg-white py-0 overflow-hidden">
+                        <div class=" navbottom " id="navbarNav">
+                            <ul class="nav navbottom_list  ">
+                                <li class="navbottom_name ">
+                                    <a class="nav-link text-black active ps-4 ps-md-4 ms-md-1 ms-md-1 ms-1"
+                                        aria-current="page" href="#">KADIN</a>
+                                </li>
+                                <li class="navbottom_name">
+                                    <a class="nav-link text-black" href="#">ERKEK</a>
+                                </li>
+                                <li class="navbottom_name">
+                                    <a class="nav-link text-black" href="#">ÇOCUK</a>
+                                </li>
+                                <li class="navbottom_name">
+                                    <a class="nav-link text-black" href="#">EV & MOBİLYA</a>
+                                </li>
+                                <li class="navbottom_name">
+                                    <a class="nav-link text-black" href="#">SÜPERMARKET</a>
+                                </li>
+                                <li class="navbottom_name">
+                                    <a class="nav-link text-black" href="#">KOZMETİK</a>
+                                </li>
+                                <li class="navbottom_name">
+                                    <a class="nav-link text-black" href="#">AYAKKABI & ÇANTA</a>
+                                </li>
+                                <li class="navbottom_name">
+                                    <a class="nav-link text-black" href="#">SAAT & AKSESUAR</a>
+                                </li>
+                                <li class="navbottom_name">
+                                    <a class="nav-link text-black" href="#">ELEKTRONİK</a>
+                                </li>
+                                <li class="navbottom_name">
+                                    <a class="nav-link text-black" href="#">SPOR & OUTDOOR</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div>
